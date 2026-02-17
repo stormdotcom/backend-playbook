@@ -446,7 +446,7 @@ const SagaFlow = () => {
         {steps.map((s, i) => {
           const isCompensating = failed !== null && i < failed;
           const isFailed = failed === i;
-          const isNormal = failed === null || i > failed;
+
           return (
             <div key={i} onClick={() => setFailed(failed === i ? null : i)} style={{
               display: "grid", gridTemplateColumns: "40px 1fr 110px", gap: 14, alignItems: "center",
