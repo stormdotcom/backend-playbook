@@ -6,6 +6,7 @@ import {
   TrendingUp, DollarSign, Rocket, Users, Play, ChevronRight, Settings,
   PenTool, BookOpen
 } from "lucide-react";
+import Roadmap from "./Roadmap";
 
 /* ─── DESIGN TOKENS ─────────────────────────────────────────────── */
 const C = {
@@ -24,6 +25,7 @@ const C = {
 };
 
 /* ─── GLOBAL STYLES injected once ───────────────────────────────── */
+// todod move to css file, and import css file here
 const GLOBAL_CSS = `
   @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800;900&family=JetBrains+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
